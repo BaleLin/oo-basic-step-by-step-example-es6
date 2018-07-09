@@ -1,8 +1,8 @@
-import Person from "../practice_7/person";
+import Person from "../practice_8/person";
 
 export default  class Teacher extends Person{
-    constructor(name, age,klass){
-        super(name,age);
+    constructor(id,name, age,klass){
+        super(id,name,age);
         this.klass = klass;
         // this.name = name;
         // this.age = age;
