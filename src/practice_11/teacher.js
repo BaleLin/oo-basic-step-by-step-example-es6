@@ -25,6 +25,9 @@ export default  class Teacher extends Person{
             return super.introduce() + ` I am a Teacher. I don't teach ${student.name}.`;
         }
 }
+  handelNewmem(student){
+    
+  }
 }
 
 

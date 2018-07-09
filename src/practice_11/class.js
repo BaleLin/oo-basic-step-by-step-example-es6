@@ -41,7 +41,17 @@ export default  class klass{
     }
 
     registerJoinListener(teacher){
-        this.joinListener = teacher;
+        this.newMem = teacher;
+    }
+
+    notifyNewMemberJoined(student){
+        this.newMem.array.forEach(element => {
+            
+        });
+    }
+
+    notifyAssignLeader(student){
+
     }
 }
 
