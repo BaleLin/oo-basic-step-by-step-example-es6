@@ -2,9 +2,7 @@ import Person from "../practice_4/person";
 
 export default  class Worker extends Person{
     constructor(name, age){
-        super();
-        this.name = name;
-        this.age = age;
+        super(name, age);
        
     }
      introduce() {
