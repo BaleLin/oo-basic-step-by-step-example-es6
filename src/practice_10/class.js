@@ -1,7 +1,7 @@
 
 
-import Person from "../practice_9/person";
-import Student from "../practice_9/student";
+import Person from "../practice_10/person";
+import Student from "../practice_10/student";
 
 export default  class klass{
     leader;
@@ -19,7 +19,9 @@ export default  class klass{
             console.log ("It is not one of us.")
         }
       }
-
+      equal(_klass){
+        return this.number === _klass.number;
+}
       appendMember(student){
         if(student.klass!==undefined){
             student.klass = this;

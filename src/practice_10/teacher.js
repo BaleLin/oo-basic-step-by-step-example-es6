@@ -1,8 +1,8 @@
 
-import Person from "../practice_9/person";
+import Person from "../practice_10/person";
 export default  class Teacher extends Person{
-    constructor(name, age,klasses){
-        super(name,age);
+    constructor(id,name, age,klasses){
+        super(id,name,age);
         this.klasses = klasses;
         // this.name = name;
         // this.age = age;
@@ -22,7 +22,7 @@ export default  class Teacher extends Person{
         if(isStudent){
             return super.introduce() +" I am a Teacher. I teach "+ student.name +".";
         }else{
-            return super.introduce() +" I am a Teacher. I don't teach Jerry.";
+            return super.introduce() + ` I am a Teacher. I don't teach ${student.name}.`;
         }
 }
 }

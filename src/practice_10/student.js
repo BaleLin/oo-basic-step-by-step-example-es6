@@ -1,6 +1,6 @@
 
 
-import Person from "../practice_9/person";
+import Person from "../practice_10/person";
 
 export default  class Student extends Person{
     constructor(id,name, age,klass){
