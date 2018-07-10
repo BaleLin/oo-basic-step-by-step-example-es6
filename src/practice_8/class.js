@@ -2,7 +2,7 @@
 import Person from "../practice_8/person";
 import Student from "../practice_8/student";
 
-export default  class klass{
+export default  class Class{
     leader;
     constructor(number){
         this.number = number;

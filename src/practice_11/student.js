@@ -11,6 +11,7 @@ export default  class Student extends Person{
      isEqual(student){
         return student.id===this.id;
      }
+     
      introduce() {
         if(this.klass.leader!==undefined&&this.isEqual(this.klass.leader)){
             return super.introduce()+ ` I am a Student. I am Leader of Class ${this.klass.number}.`

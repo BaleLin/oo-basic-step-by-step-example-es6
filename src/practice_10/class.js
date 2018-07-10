@@ -3,7 +3,7 @@
 import Person from "../practice_10/person";
 import Student from "../practice_10/student";
 
-export default  class klass{
+export default  class Class{
     leader;
     constructor(number){
         this.number = number;
